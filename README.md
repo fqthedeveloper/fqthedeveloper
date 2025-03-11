@@ -25,7 +25,7 @@ Modern Web Technologies: Love working with React.js, Exploring new Frameworks, a
 🔹 Automation & Infrastructure as Code
 
 📫 Connect with Me
-💼 LinkedIn: https://github.com/fqthedeveloper
+💼 LinkedIn: https://www.linkedin.com/in/faizan-qureshi-developer
 📧 Email: fqthedeveloper@gmail.com
 
 Let's build something amazing together! 🚀
