@@ -10,13 +10,13 @@ Hi there! 👋 I'm Mohammad Faizan Qureshi
 
 I am a passionate Full-Stack Developer and Cloud Engineer with expertise in:
 
-Cloud Computing & DevOps: Proficient in Amazon Web Services (AWS), cloud solutions architecture, and automation with Ansible.
+Cloud Computing & DevOps: Proficient in Amazon Web Services (AWS), Cloud Solutions Architecture, and Automation with Ansible.
 
-Full-Stack Development: Skilled in Django (Python) for backend development and React.js (JavaScript) for building modern, interactive frontends.
+Full-Stack Development: Skilled in Django (Python) for Backend Development and React.js (JavaScript) for Building Modern, Interactive Frontends.
 
-Automation & Troubleshooting: Enthusiastic about streamlining workflows, troubleshooting issues, and enhancing system reliability.
+Automation & Troubleshooting: Enthusiastic about Streamlining Workflows, Troubleshooting Issues, and Enhancing System Reliability.
 
-Modern Web Technologies: Love working with React.js, exploring new frameworks, and building innovative web solutions.
+Modern Web Technologies: Love working with React.js, Exploring new Frameworks, and Building Innovative Web Solutions.
 
 🌱 Interests
 🔹 Cloud Computing & DevOps
