@@ -1,33 +1,61 @@
-Hi there! 👋 I'm Mohammad Faizan Qureshi
+<h1 align="center">Hi there 👋, I'm Mohammad Faizan Qureshi</h1>
+<h3 align="center">🚀 Full-Stack Developer | ☁️ Cloud Engineer from Nashik, Maharashtra, India</h3>
 
-🔹 Location: Nashik, Maharashtra, India
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&width=435&lines=Welcome+to+my+GitHub+Profile!;I+build+modern+web+apps;Cloud+%7C+DevOps+%7C+Django+%7C+React+lover" alt="Typing SVG" />
+</p>
 
-🎓 Education: Bachelor's in Arts (2020)
+---
 
-💻 Role: Full-Stack Developer | Cloud Engineer
+### 🔧 Technologies & Tools
+<p>
+  <img src="https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Ansible-E74428?style=for-the-badge&logo=ansible&logoColor=white" />
+</p>
 
-🚀 About Me
+---
 
-I am a passionate Full-Stack Developer and Cloud Engineer with expertise in:
+### 📌 About Me
+- 🎓 Bachelor's in Arts (2020)
+- 💻 Full-Stack Developer & Cloud Engineer
+- 🌐 Expertise in **AWS**, **Django**, **React.js**, **Automation**, **IaC**
+- 🛠️ Love to solve problems, build scalable solutions, and automate workflows
 
-Cloud Computing & DevOps: Proficient in Amazon Web Services (AWS), Cloud Solutions Architecture, and Automation with Ansible.
+---
 
-Full-Stack Development: Skilled in Django (Python) for Backend Development and React.js (JavaScript) for Building Modern, Interactive Frontends.
+### 🌱 Interests
+- DevOps & Cloud Automation
+- Modern Web Technologies
+- System Architecture & Scalability
 
-Automation & Troubleshooting: Enthusiastic about Streamlining Workflows, Troubleshooting Issues, and Enhancing System Reliability.
+---
 
-Modern Web Technologies: Love working with React.js, Exploring new Frameworks, and Building Innovative Web Solutions.
+### 📫 Connect with Me
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/faizan-qureshi-developer)
+[![Gmail](https://img.shields.io/badge/Gmail-fqthedeveloper@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:fqthedeveloper@gmail.com)
 
-🌱 Interests
-🔹 Cloud Computing & DevOps
-🔹 Web Technologies & Modern JavaScript Frameworks
-🔹 Building Scalable & Secure Web Applications
-🔹 Automation & Infrastructure as Code
+---
 
-📫 Connect with Me
-💼 LinkedIn: https://www.linkedin.com/in/faizan-qureshi-developer
-📧 Email: fqthedeveloper@gmail.com
+### 📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=faizan-qureshi-developer&show_icons=true&theme=radical" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=faizan-qureshi-developer&layout=compact&theme=radical" width="45%" />
+</p>
 
-Let's build something amazing together! 🚀
+---
 
-This format makes it visually appealing and easy to read on GitHub. Let me know if you want any tweaks! 😊
+### 🔄 Recent Activity
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+### ✍️ Random Dev Quote
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+
+---
+
+<p align="center">Let's build something amazing together! 🚀</p>
