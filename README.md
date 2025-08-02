@@ -57,6 +57,11 @@
 ### ✍️ Random Dev Quote
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
+### 🔄 Recent Activity
+<!--START_SECTION:activity-->
+1. Starred [redhat-plumbers/systemd-rhel8](https://github.com/redhat-plumbers/systemd-rhel8)
+<!--END_SECTION:activity-->
+
 ---
 
 <p align="center">Let's build something amazing together! 🚀</p>
