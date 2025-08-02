@@ -59,7 +59,7 @@
 
 ### 🔄 Recent Activity
 <!--START_SECTION:activity-->
-1. Starred [redhat-plumbers/systemd-rhel8](https://github.com/redhat-plumbers/systemd-rhel8)
+
 <!--END_SECTION:activity-->
 
 ---
