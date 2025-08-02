@@ -57,11 +57,6 @@
 ### ✍️ Random Dev Quote
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
-### 🔄 Recent Activity
-<!--START_SECTION:activity-->
-
-<!--END_SECTION:activity-->
-
 ---
 
 <p align="center">Let's build something amazing together! 🚀</p>
