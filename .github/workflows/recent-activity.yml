@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Required for proper commit detection
+          fetch-depth: 0  # Critical for marker detection
 
       - name: Generate recent activity
         uses: Readme-Workflows/recent-activity@v2.3.0
