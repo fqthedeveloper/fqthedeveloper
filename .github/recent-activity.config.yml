@@ -6,3 +6,4 @@ activity_types:
   - IssuesEvent
   - IssueCommentEvent
   - PullRequestReviewCommentEvent
+  
