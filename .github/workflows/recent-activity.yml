@@ -11,11 +11,14 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Required for proper commit detection
 
       - name: Generate recent activity
         uses: Readme-Workflows/recent-activity@v2.3.0
         with:
           GH_USERNAME: fqthedeveloper
+          CONFIG_FILE: ./.github/recent-activity.config.yml
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -24,5 +27,5 @@ jobs:
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: update recent activity"
+          git diff --cached --quiet || git commit -m "chore: update recent activity"
           git push
