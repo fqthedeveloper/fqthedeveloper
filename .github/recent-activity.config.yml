@@ -9,3 +9,4 @@ activity_types:
   - WatchEvent
 comment_start: "<!--START_SECTION:activity-->"
 comment_end: "<!--END_SECTION:activity-->"
+
