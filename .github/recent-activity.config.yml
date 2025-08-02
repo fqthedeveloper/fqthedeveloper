@@ -1,0 +1,8 @@
+output_file: README.md
+max_items: 5
+activity_types:
+  - PushEvent
+  - PullRequestEvent
+  - IssuesEvent
+  - IssueCommentEvent
+  - PullRequestReviewCommentEvent
