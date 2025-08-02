@@ -6,4 +6,6 @@ activity_types:
   - IssuesEvent
   - IssueCommentEvent
   - PullRequestReviewCommentEvent
-  - WatchEvent  # Add this line
+  - WatchEvent
+comment_start: "<!--START_SECTION:activity-->"
+comment_end: "<!--END_SECTION:activity-->"
