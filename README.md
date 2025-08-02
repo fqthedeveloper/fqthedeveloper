@@ -52,7 +52,7 @@
   <img src="https://github-profile-trophy.vercel.app/?username=fqthedeveloper&theme=radical&no-frame=true&row=1&column=7" />
 </p>
 
-
+---
 
 ### ✍️ Random Dev Quote
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
