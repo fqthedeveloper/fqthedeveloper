@@ -373,63 +373,70 @@ React.js • Django • Python • REST API
 
 ---
 
-# 📊 GitHub Analytics
+<!-- ========================================================= -->
+
+<!--                    GITHUB ANALYTICS                       -->
+
+<!-- ========================================================= -->
+
+## 📊 GitHub Analytics
 
 <p align="center">
+  <a href="https://github.com/fqthedeveloper">
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=fqthedeveloper&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
+      height="180"
+      alt="GitHub Stats"
+    />
+  </a>
 
-<img
-src="https://github-readme-stats.vercel.app/api?username=fqthedeveloper&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true"
-width="49%"
-alt="GitHub Stats"
-/>
-
-<img
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=fqthedeveloper&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
-width="41%"
-alt="Top Languages"
-/>
-
+  <a href="https://github.com/fqthedeveloper">
+    <img
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=fqthedeveloper&layout=compact&theme=tokyonight&hide_border=true&langs_count=8"
+      height="180"
+      alt="Top Languages"
+    />
+  </a>
 </p>
 
 ---
 
-# 🔥 GitHub Streak
+## 🔥 GitHub Streak
 
 <p align="center">
-
-<img
-src="https://github-readme-streak-stats.herokuapp.com/?user=fqthedeveloper&theme=tokyonight&hide_border=true"
-width="70%"
-alt="GitHub Streak"
-/>
-
+  <a href="https://github.com/fqthedeveloper">
+    <img
+      src="https://streak-stats.demolab.com/?user=fqthedeveloper&theme=tokyonight&hide_border=true"
+      width="70%"
+      alt="GitHub Streak"
+    />
+  </a>
 </p>
 
 ---
 
-# 🏆 GitHub Trophies
+## 🏆 GitHub Trophies
 
 <p align="center">
-
-<img
-src="https://github-profile-trophy.vercel.app/?username=fqthedeveloper&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=2&column=6"
-alt="GitHub Trophies"
-/>
-
+  <a href="https://github.com/fqthedeveloper">
+    <img
+      src="https://github-profile-trophy.vercel.app/?username=fqthedeveloper&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=2&column=6"
+      width="95%"
+      alt="GitHub Trophies"
+    />
+  </a>
 </p>
 
 ---
 
-# 📈 Contribution Activity
+## 📈 Contribution Activity
 
 <p align="center">
-
-<img
-src="https://github-readme-activity-graph.vercel.app/graph?username=fqthedeveloper&bg_color=0d1117&color=36BCF7&line=36BCF7&point=FFFFFF&area=true&hide_border=true"
-width="100%"
-alt="Contribution Activity Graph"
-/>
-
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=fqthedeveloper&theme=tokyo-night&hide_border=true"
+    width="100%"
+    alt="GitHub Contribution Activity"
+  />
 </p>
 
 ---
