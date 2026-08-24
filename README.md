@@ -4,7 +4,7 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=36BCF7&width=435&lines=Welcome+to+my+GitHub+Profile!;I+build+modern+web+apps;Cloud+%7C+DevOps+%7C+Django+%7C+React+lover" alt="Typing SVG" />
 </p>
-
+<div><a href="https://cloud.layer5.io/user/a98f604f-3859-4709-b367-22932a276a30?tab=badges&badge=first-design" alt="First Design" ><img width="175px" height="252px" src="https://badges.layer5.io/assets/badges/first-design/first-design.png" alt="First Design" /></a><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<sup><a href="https://badges.layer5.io">Get your own badge</a></sup></div>
 ---
 
 ### 🔧 Technologies & Tools
