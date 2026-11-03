@@ -21,121 +21,77 @@
     </filter>
   </defs>
 
-  <style>
-    .step-title {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-weight: 800;
-      font-size: 13px;
-      fill: #f8fafc;
-      letter-spacing: 1px;
-    }
-    .step-sub {
-      font-family: 'Fira Code', Consolas, monospace;
-      font-size: 10.5px;
-      fill: #94a3b8;
-    }
-    .header-label {
-      font-family: 'Fira Code', Consolas, monospace;
-      font-size: 12px;
-      font-weight: 700;
-      fill: #36BCF7;
-      letter-spacing: 2px;
-    }
-    @keyframes flowDash {
-      to { stroke-dashoffset: -120; }
-    }
-    @keyframes nodePulse {
-      0%, 100% { stroke-opacity: 0.45; }
-      50% { stroke-opacity: 1; }
-    }
-    .flow-line {
-      stroke-dasharray: 10 8;
-      animation: flowDash 3s linear infinite;
-    }
-    .node-box {
-      animation: nodePulse 3.5s ease-in-out infinite;
-    }
-  </style>
-
   <!-- Card Background -->
   <rect width="1100" height="220" rx="16" fill="url(#pipeBg)" stroke="#1e293b" stroke-width="1.5" />
 
   <!-- Top Header -->
-  <text x="550" y="34" text-anchor="middle" class="header-label">⚡ CONTINUOUS ENGINEERING &amp; CLOUD DELIVERY LIFECYCLE ⚡</text>
+  <text x="550" y="34" text-anchor="middle" font-family="'Fira Code', Consolas, monospace" font-size="12" font-weight="700" fill="#36BCF7" letter-spacing="2">
+    ⚡ CONTINUOUS ENGINEERING &amp; CLOUD DELIVERY LIFECYCLE ⚡
+  </text>
 
   <!-- Connecting Pipeline Track -->
   <line x1="95" y1="115" x2="1005" y2="115" stroke="#1e293b" stroke-width="4" />
-  <line x1="95" y1="115" x2="1005" y2="115" stroke="url(#lineGrad)" stroke-width="3" class="flow-line" />
+  <line x1="95" y1="115" x2="1005" y2="115" stroke="url(#lineGrad)" stroke-width="3" stroke-dasharray="10 8">
+    <animate attributeName="stroke-dashoffset" values="0;-120" dur="3s" repeatCount="indefinite" />
+  </line>
 
   <!-- Traveling Energy Packets -->
-  <circle r="5" cy="115" fill="#36BCF7" filter="url(#glow)">
+  <circle r="5.5" cy="115" fill="#36BCF7" filter="url(#glow)">
     <animate attributeName="cx" values="95;1005" dur="5s" repeatCount="indefinite" />
   </circle>
-  <circle r="5" cy="115" fill="#BB9AF7" filter="url(#glow)">
+  <circle r="5.5" cy="115" fill="#BB9AF7" filter="url(#glow)">
     <animate attributeName="cx" values="95;1005" dur="5s" begin="2.5s" repeatCount="indefinite" />
   </circle>
 
-  <!-- Node 1: THINK -->
-  <g transform="translate(30, 65)">
-    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#36BCF7" stroke-width="1.5" class="node-box" />
-    <text x="65" y="34" text-anchor="middle" font-size="22">💡</text>
-    <text x="65" y="60" text-anchor="middle" class="step-title">1. THINK</text>
-    <text x="65" y="80" text-anchor="middle" class="step-sub">Problem Analysis</text>
-    <text x="65" y="94" text-anchor="middle" class="step-sub">&amp; Requirements</text>
-  </g>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" text-anchor="middle">
+    <!-- Node 1: THINK -->
+    <rect x="30" y="65" width="130" height="105" rx="12" fill="#0f172a" stroke="#36BCF7" stroke-width="1.5" />
+    <text x="95" y="99" font-size="22">💡</text>
+    <text x="95" y="125" font-weight="800" font-size="13" fill="#f8fafc">1. THINK</text>
+    <text x="95" y="145" font-family="monospace" font-size="10.5" fill="#94a3b8">Problem Analysis</text>
+    <text x="95" y="159" font-family="monospace" font-size="10.5" fill="#94a3b8">&amp; Requirements</text>
 
-  <!-- Node 2: DESIGN -->
-  <g transform="translate(182, 65)">
-    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#48B0F7" stroke-width="1.5" class="node-box" />
-    <text x="65" y="34" text-anchor="middle" font-size="22">🏗️</text>
-    <text x="65" y="60" text-anchor="middle" class="step-title">2. DESIGN</text>
-    <text x="65" y="80" text-anchor="middle" class="step-sub">Scalable System</text>
-    <text x="65" y="94" text-anchor="middle" class="step-sub">Architecture</text>
-  </g>
+    <!-- Node 2: DESIGN -->
+    <rect x="182" y="65" width="130" height="105" rx="12" fill="#0f172a" stroke="#48B0F7" stroke-width="1.5" />
+    <text x="247" y="99" font-size="22">🏗️</text>
+    <text x="247" y="125" font-weight="800" font-size="13" fill="#f8fafc">2. DESIGN</text>
+    <text x="247" y="145" font-family="monospace" font-size="10.5" fill="#94a3b8">Scalable System</text>
+    <text x="247" y="159" font-family="monospace" font-size="10.5" fill="#94a3b8">Architecture</text>
 
-  <!-- Node 3: DEVELOP -->
-  <g transform="translate(334, 65)">
-    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#7AA2F7" stroke-width="1.5" class="node-box" />
-    <text x="65" y="34" text-anchor="middle" font-size="22">💻</text>
-    <text x="65" y="60" text-anchor="middle" class="step-title">3. DEVELOP</text>
-    <text x="65" y="80" text-anchor="middle" class="step-sub">Clean Full-Stack</text>
-    <text x="65" y="94" text-anchor="middle" class="step-sub">Django &amp; React</text>
-  </g>
+    <!-- Node 3: DEVELOP -->
+    <rect x="334" y="65" width="130" height="105" rx="12" fill="#0f172a" stroke="#7AA2F7" stroke-width="1.5" />
+    <text x="399" y="99" font-size="22">💻</text>
+    <text x="399" y="125" font-weight="800" font-size="13" fill="#f8fafc">3. DEVELOP</text>
+    <text x="399" y="145" font-family="monospace" font-size="10.5" fill="#94a3b8">Clean Full-Stack</text>
+    <text x="399" y="159" font-family="monospace" font-size="10.5" fill="#94a3b8">Django &amp; React</text>
 
-  <!-- Node 4: AUTOMATE -->
-  <g transform="translate(485, 65)">
-    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#9D7CD8" stroke-width="1.5" class="node-box" />
-    <text x="65" y="34" text-anchor="middle" font-size="22">⚙️</text>
-    <text x="65" y="60" text-anchor="middle" class="step-title">4. AUTOMATE</text>
-    <text x="65" y="80" text-anchor="middle" class="step-sub">Docker, Ansible</text>
-    <text x="65" y="94" text-anchor="middle" class="step-sub">&amp; CI/CD Scripts</text>
-  </g>
+    <!-- Node 4: AUTOMATE -->
+    <rect x="485" y="65" width="130" height="105" rx="12" fill="#0f172a" stroke="#9D7CD8" stroke-width="1.5" />
+    <text x="550" y="99" font-size="22">⚙️</text>
+    <text x="550" y="125" font-weight="800" font-size="13" fill="#f8fafc">4. AUTOMATE</text>
+    <text x="550" y="145" font-family="monospace" font-size="10.5" fill="#94a3b8">Docker, Ansible</text>
+    <text x="550" y="159" font-family="monospace" font-size="10.5" fill="#94a3b8">&amp; CI/CD Scripts</text>
 
-  <!-- Node 5: DEPLOY -->
-  <g transform="translate(637, 65)">
-    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#BB9AF7" stroke-width="1.5" class="node-box" />
-    <text x="65" y="34" text-anchor="middle" font-size="22">☁️</text>
-    <text x="65" y="60" text-anchor="middle" class="step-title">5. DEPLOY</text>
-    <text x="65" y="80" text-anchor="middle" class="step-sub">Resilient AWS</text>
-    <text x="65" y="94" text-anchor="middle" class="step-sub">Cloud Infra</text>
-  </g>
+    <!-- Node 5: DEPLOY -->
+    <rect x="637" y="65" width="130" height="105" rx="12" fill="#0f172a" stroke="#BB9AF7" stroke-width="1.5" />
+    <text x="702" y="99" font-size="22">☁️</text>
+    <text x="702" y="125" font-weight="800" font-size="13" fill="#f8fafc">5. DEPLOY</text>
+    <text x="702" y="145" font-family="monospace" font-size="10.5" fill="#94a3b8">Resilient AWS</text>
+    <text x="702" y="159" font-family="monospace" font-size="10.5" fill="#94a3b8">Cloud Infra</text>
 
-  <!-- Node 6: MONITOR -->
-  <g transform="translate(789, 65)">
-    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#2AC3DE" stroke-width="1.5" class="node-box" />
-    <text x="65" y="34" text-anchor="middle" font-size="22">📊</text>
-    <text x="65" y="60" text-anchor="middle" class="step-title">6. MONITOR</text>
-    <text x="65" y="80" text-anchor="middle" class="step-sub">Observability</text>
-    <text x="65" y="94" text-anchor="middle" class="step-sub">&amp; Security</text>
-  </g>
+    <!-- Node 6: MONITOR -->
+    <rect x="789" y="65" width="130" height="105" rx="12" fill="#0f172a" stroke="#2AC3DE" stroke-width="1.5" />
+    <text x="854" y="99" font-size="22">📊</text>
+    <text x="854" y="125" font-weight="800" font-size="13" fill="#f8fafc">6. MONITOR</text>
+    <text x="854" y="145" font-family="monospace" font-size="10.5" fill="#94a3b8">Observability</text>
+    <text x="854" y="159" font-family="monospace" font-size="10.5" fill="#94a3b8">&amp; Security</text>
 
-  <!-- Node 7: ITERATE -->
-  <g transform="translate(940, 65)">
-    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#9ECE6A" stroke-width="1.5" class="node-box" />
-    <text x="65" y="34" text-anchor="middle" font-size="22">🔄</text>
-    <text x="65" y="60" text-anchor="middle" class="step-title">7. ITERATE</text>
-    <text x="65" y="80" text-anchor="middle" class="step-sub">Scale &amp; Optimize</text>
-    <text x="65" y="94" text-anchor="middle" class="step-sub">Continuously</text>
+    <!-- Node 7: ITERATE -->
+    <rect x="940" y="65" width="130" height="105" rx="12" fill="#0f172a" stroke="#9ECE6A" stroke-width="1.5" />
+    <text x="1005" y="99" font-size="22">🔄</text>
+    <text x="1005" y="125" font-weight="800" font-size="13" fill="#f8fafc">7. ITERATE</text>
+    <text x="1005" y="145" font-family="monospace" font-size="10.5" fill="#94a3b8">Scale &amp; Optimize</text>
+    <text x="1005" y="159" font-family="monospace" font-size="10.5" fill="#94a3b8">Continuously</text>
   </g>
 
   <!-- Bottom Caption -->

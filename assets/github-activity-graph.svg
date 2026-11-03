@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="graphBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#131924" />
+    </linearGradient>
+    <linearGradient id="areaFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#36BCF7" stop-opacity="0.38" />
+      <stop offset="65%" stop-color="#BB9AF7" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="lineStroke" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#36BCF7" />
+      <stop offset="50%" stop-color="#BB9AF7" />
+      <stop offset="100%" stop-color="#9ECE6A" />
+    </linearGradient>
+    <filter id="nodeGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="4" y="4" width="1092" height="272" rx="14" fill="url(#graphBg)" stroke="#21262d" stroke-width="1.5" />
+
+  <!-- Header -->
+  <text x="36" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="800" fill="#36BCF7">
+    📈 Contribution &amp; Engineering Activity Graph — fqthedeveloper
+  </text>
+  <text x="1064" y="38" text-anchor="end" font-family="monospace" font-size="12" fill="#9ECE6A">
+    ● LIVE TELEMETRY (1,018+ CONTRIBUTIONS)
+  </text>
+
+  <!-- Horizontal Grid Lines -->
+  <g stroke="#1e293b" stroke-width="1" stroke-dasharray="4 6">
+    <line x1="70" y1="70" x2="1050" y2="70" />
+    <line x1="70" y1="115" x2="1050" y2="115" />
+    <line x1="70" y1="160" x2="1050" y2="160" />
+    <line x1="70" y1="205" x2="1050" y2="205" />
+  </g>
+  <line x1="70" y1="230" x2="1050" y2="230" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Y-Axis Labels -->
+  <g font-family="monospace" font-size="11" fill="#64748b" text-anchor="end">
+    <text x="58" y="74">40+</text>
+    <text x="58" y="119">30</text>
+    <text x="58" y="164">20</text>
+    <text x="58" y="209">10</text>
+    <text x="58" y="234">0</text>
+  </g>
+
+  <!-- Area Under Curve -->
+  <path d="M 80 195 C 130 160, 160 120, 200 135 C 240 150, 280 85, 320 95 C 360 105, 400 165, 440 140 C 480 115, 520 68, 560 80 C 600 92, 640 145, 680 118 C 720 90, 760 72, 800 90 C 840 108, 880 140, 920 88 C 960 55, 1000 78, 1040 65 L 1040 230 L 80 230 Z"
+        fill="url(#areaFill)" />
+
+  <!-- Main Spline Line -->
+  <path id="activityPath"
+        d="M 80 195 C 130 160, 160 120, 200 135 C 240 150, 280 85, 320 95 C 360 105, 400 165, 440 140 C 480 115, 520 68, 560 80 C 600 92, 640 145, 680 118 C 720 90, 760 72, 800 90 C 840 108, 880 140, 920 88 C 960 55, 1000 78, 1040 65"
+        fill="none" stroke="url(#lineStroke)" stroke-width="3.2" stroke-linecap="round" />
+
+  <!-- Traveling Pulse Along the Activity Curve -->
+  <circle r="5.5" fill="#36BCF7" filter="url(#nodeGlow)">
+    <animateMotion dur="6s" repeatCount="indefinite"
+      path="M 80 195 C 130 160, 160 120, 200 135 C 240 150, 280 85, 320 95 C 360 105, 400 165, 440 140 C 480 115, 520 68, 560 80 C 600 92, 640 145, 680 118 C 720 90, 760 72, 800 90 C 840 108, 880 140, 920 88 C 960 55, 1000 78, 1040 65" />
+  </circle>
+
+  <!-- Data Points -->
+  <g fill="#0d1117" stroke="#36BCF7" stroke-width="2.5">
+    <circle cx="80" cy="195" r="4.5" />
+    <circle cx="200" cy="135" r="4.5" />
+    <circle cx="320" cy="95" r="4.5" stroke="#BB9AF7" />
+    <circle cx="440" cy="140" r="4.5" />
+    <circle cx="560" cy="80" r="5" stroke="#BB9AF7" />
+    <circle cx="680" cy="118" r="4.5" />
+    <circle cx="800" cy="90" r="4.5" stroke="#9ECE6A" />
+    <circle cx="920" cy="88" r="4.5" stroke="#BB9AF7" />
+    <circle cx="1040" cy="65" r="5.5" stroke="#9ECE6A">
+      <animate attributeName="r" values="5;7.5;5" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- X-Axis Labels -->
+  <g font-family="monospace" font-size="11" fill="#8b949e" text-anchor="middle">
+    <text x="80" y="254">Code Commits</text>
+    <text x="240" y="254">Django APIs</text>
+    <text x="400" y="254">React UI</text>
+    <text x="560" y="254">AWS Deploys</text>
+    <text x="720" y="254">Docker Builds</text>
+    <text x="880" y="254">Ansible IaC</text>
+    <text x="1025" y="254">Active Now</text>
+  </g>
+</svg>

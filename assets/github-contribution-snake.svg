@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 215" width="100%" height="100%">
+  <defs>
+    <linearGradient id="snakeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#131924" />
+    </linearGradient>
+
+    <linearGradient id="snakeTrail" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#36BCF7" />
+      <stop offset="50%" stop-color="#BB9AF7" />
+      <stop offset="100%" stop-color="#3fb950" />
+    </linearGradient>
+
+    <!-- Reusable 4-Week Column Group to render a full 52-week contribution matrix cleanly -->
+    <g id="weekBlock">
+      <!-- Week A -->
+      <rect x="0" y="0" width="13" height="13" rx="3" fill="#161b22" />
+      <rect x="0" y="17" width="13" height="13" rx="3" fill="#0e4429" />
+      <rect x="0" y="34" width="13" height="13" rx="3" fill="#006d32" />
+      <rect x="0" y="51" width="13" height="13" rx="3" fill="#161b22" />
+      <rect x="0" y="68" width="13" height="13" rx="3" fill="#26a641" />
+      <rect x="0" y="85" width="13" height="13" rx="3" fill="#0e4429" />
+      <rect x="0" y="102" width="13" height="13" rx="3" fill="#161b22" />
+
+      <!-- Week B -->
+      <rect x="18" y="0" width="13" height="13" rx="3" fill="#0e4429" />
+      <rect x="18" y="17" width="13" height="13" rx="3" fill="#26a641" />
+      <rect x="18" y="34" width="13" height="13" rx="3" fill="#39d353" />
+      <rect x="18" y="51" width="13" height="13" rx="3" fill="#006d32" />
+      <rect x="18" y="68" width="13" height="13" rx="3" fill="#161b22" />
+      <rect x="18" y="85" width="13" height="13" rx="3" fill="#006d32" />
+      <rect x="18" y="102" width="13" height="13" rx="3" fill="#0e4429" />
+
+      <!-- Week C -->
+      <rect x="36" y="0" width="13" height="13" rx="3" fill="#161b22" />
+      <rect x="36" y="17" width="13" height="13" rx="3" fill="#161b22" />
+      <rect x="36" y="34" width="13" height="13" rx="3" fill="#0e4429" />
+      <rect x="36" y="51" width="13" height="13" rx="3" fill="#26a641" />
+      <rect x="36" y="68" width="13" height="13" rx="3" fill="#39d353" />
+      <rect x="36" y="85" width="13" height="13" rx="3" fill="#161b22" />
+      <rect x="36" y="102" width="13" height="13" rx="3" fill="#006d32" />
+
+      <!-- Week D -->
+      <rect x="54" y="0" width="13" height="13" rx="3" fill="#006d32" />
+      <rect x="54" y="17" width="13" height="13" rx="3" fill="#39d353" />
+      <rect x="54" y="34" width="13" height="13" rx="3" fill="#161b22" />
+      <rect x="54" y="51" width="13" height="13" rx="3" fill="#0e4429" />
+      <rect x="54" y="68" width="13" height="13" rx="3" fill="#006d32" />
+      <rect x="54" y="85" width="13" height="13" rx="3" fill="#26a641" />
+      <rect x="54" y="102" width="13" height="13" rx="3" fill="#39d353" />
+    </g>
+
+    <filter id="snakeGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Card -->
+  <rect x="4" y="4" width="1092" height="207" rx="14" fill="url(#snakeBg)" stroke="#21262d" stroke-width="1.5" />
+
+  <!-- Header -->
+  <text x="36" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="800" fill="#36BCF7">
+    🐍 Contribution Grid Snake — Eating Commits Across 52 Weeks
+  </text>
+
+  <!-- Legend -->
+  <text x="905" y="35" font-family="monospace" font-size="11" fill="#8b949e">Less</text>
+  <rect x="938" y="25" width="11" height="11" rx="2" fill="#161b22" />
+  <rect x="953" y="25" width="11" height="11" rx="2" fill="#0e4429" />
+  <rect x="968" y="25" width="11" height="11" rx="2" fill="#006d32" />
+  <rect x="983" y="25" width="11" height="11" rx="2" fill="#26a641" />
+  <rect x="998" y="25" width="11" height="11" rx="2" fill="#39d353" />
+  <text x="1015" y="35" font-family="monospace" font-size="11" fill="#8b949e">More</text>
+
+  <!-- 52-Week Contribution Matrix (14 blocks x 4 weeks = 56 columns) -->
+  <g transform="translate(46, 56)">
+    <use href="#weekBlock" x="0" />
+    <use href="#weekBlock" x="72" />
+    <use href="#weekBlock" x="144" />
+    <use href="#weekBlock" x="216" />
+    <use href="#weekBlock" x="288" />
+    <use href="#weekBlock" x="360" />
+    <use href="#weekBlock" x="432" />
+    <use href="#weekBlock" x="504" />
+    <use href="#weekBlock" x="576" />
+    <use href="#weekBlock" x="648" />
+    <use href="#weekBlock" x="720" />
+    <use href="#weekBlock" x="792" />
+    <use href="#weekBlock" x="864" />
+    <use href="#weekBlock" x="936" />
+
+    <!-- Animated Glowing Snake Slithering Through the Contribution Grid -->
+    <path d="M 6 6 L 204 6 L 204 57 L 420 57 L 420 23 L 654 23 L 654 91 L 852 91 L 852 40 L 996 40 L 996 108 L 6 108 Z"
+          fill="none"
+          stroke="url(#snakeTrail)"
+          stroke-width="9"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-dasharray="190 2450"
+          filter="url(#snakeGlow)">
+      <animate attributeName="stroke-dashoffset" values="2640;0" dur="9s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Footer Status -->
+  <text x="550" y="195" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#8b949e">
+    ⚡ Automated Continuous Commits • Full-Stack Web Apps • AWS Cloud Infrastructure • DevOps Pipelines
+  </text>
+</svg>

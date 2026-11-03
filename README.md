@@ -3,24 +3,9 @@
 <!--           Animated • High-Impact • Cloud & Full-Stack README          -->
 <!-- ===================================================================== -->
 
-<div align="center">
-
-<!-- Animated Custom SVG Hero Banner -->
-<a href="https://github.com/fqthedeveloper">
+<p align="center">
   <img src="./assets/hero-banner.svg" width="100%" alt="Mohammad Faizan Qureshi — Full-Stack Developer, AWS Cloud Architect & DevOps Engineer" />
-</a>
-
-<br/>
-
-<!-- Dynamic Typing Tagline -->
-<a href="https://github.com/fqthedeveloper">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=900&color=36BCF7&center=true&vCenter=true&width=900&lines=Architecting+Scalable+Full-Stack+Web+Applications+%F0%9F%92%BB;Building+Resilient+Cloud+Infrastructure+on+AWS+%E2%98%81%EF%B8%8F;Automating+Deployments+with+Docker%2C+Ansible+%26+Linux+%E2%9A%99%EF%B8%8F;Turning+Complex+Problems+into+Clean%2C+Reliable+Systems+%F0%9F%9A%80"
-    alt="Animated Typing Tagline"
-  />
-</a>
-
-<br/>
+</p>
 
 <!-- Live Profile Telemetry & Social Badges -->
 <p align="center">
@@ -43,8 +28,6 @@
     <img src="https://img.shields.io/badge/EMAIL-CONTACT%20ME-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
-
-</div>
 
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Divider" />
@@ -182,7 +165,7 @@ I work across the **complete engineering lifecycle** — from crafting high-perf
 
 <p align="center">
   <a href="https://github.com/fqthedeveloper?tab=repositories">
-    <img src="https://img.shields.io/badge/🚀%20EXPLORE%20ALL%20REPOSITORIES%20ON%20GITHUB-0f172a?style=for-the-badge&logo=github&logoColor=36BCF7" alt="Explore All Repositories" />
+    <img src="https://img.shields.io/badge/🚀%20EXPLORE%20ALL%2036+%20REPOSITORIES%20ON%20GITHUB-0f172a?style=for-the-badge&logo=github&logoColor=36BCF7" alt="Explore All Repositories" />
   </a>
 </p>
 
@@ -263,77 +246,29 @@ I work across the **complete engineering lifecycle** — from crafting high-perf
 
 ## 📊 GitHub Analytics & Contribution Telemetry
 
-<div align="center">
+<p align="center">
+  <img src="./assets/github-trophies.svg" width="100%" alt="GitHub Engineering Trophies" />
+</p>
 
-<!-- GitHub Trophies -->
-<a href="https://github.com/fqthedeveloper">
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=fqthedeveloper&theme=tokyonight&no-frame=true&no-bg=true&margin-w=10&row=1&column=7"
-    width="98%"
-    alt="GitHub Trophies"
-  />
-</a>
+<p align="center">
+  <img src="./assets/github-stats-languages.svg" width="100%" alt="GitHub Stats & Top Languages" />
+</p>
 
-<br/><br/>
-
-<!-- Stats + Top Languages Side-by-Side -->
-<a href="https://github.com/fqthedeveloper">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=fqthedeveloper&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=36BCF7&icon_color=BB9AF7&text_color=c9d1d9&include_all_commits=true&count_private=true"
-    height="175"
-    alt="GitHub Stats"
-  />
-</a>
-<a href="https://github.com/fqthedeveloper">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=fqthedeveloper&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=36BCF7&text_color=c9d1d9&langs_count=8"
-    height="175"
-    alt="Top Languages"
-  />
-</a>
-
-<br/><br/>
-
-<!-- Streak Stats -->
-<a href="https://github.com/fqthedeveloper">
+<p align="center">
   <img
     src="https://streak-stats.demolab.com/?user=fqthedeveloper&theme=tokyonight&hide_border=true&background=0D1117&ring=36BCF7&fire=BB9AF7&currStreakLabel=36BCF7"
     width="68%"
     alt="GitHub Streak"
   />
-</a>
+</p>
 
-<br/><br/>
+<p align="center">
+  <img src="./assets/github-activity-graph.svg" width="100%" alt="GitHub Contribution Activity Graph" />
+</p>
 
-<!-- Realtime Activity Graph -->
-<a href="https://github.com/fqthedeveloper">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=fqthedeveloper&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=36BCF7&line=BB9AF7&point=7AA2F7&area=true&area_color=36BCF7"
-    width="98%"
-    alt="GitHub Contribution Activity Graph"
-  />
-</a>
-
-<br/><br/>
-
-<!-- Animated Contribution Snake (Auto-updated via GitHub Actions) -->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/fqthedeveloper/fqthedeveloper/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/fqthedeveloper/fqthedeveloper/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="GitHub Contribution Snake"
-    src="https://raw.githubusercontent.com/fqthedeveloper/fqthedeveloper/output/github-contribution-grid-snake.svg"
-    width="100%"
-  />
-</picture>
-
-</div>
+<p align="center">
+  <img src="./assets/github-contribution-snake.svg" width="100%" alt="GitHub Contribution Snake" />
+</p>
 
 <p align="center">
   <img src="./assets/divider.svg" width="100%" alt="Divider" />

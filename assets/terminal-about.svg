@@ -8,145 +8,89 @@
       <stop offset="0%" stop-color="#161b22" />
       <stop offset="100%" stop-color="#1f2937" />
     </linearGradient>
-    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#36BCF7" />
-      <stop offset="50%" stop-color="#7AA2F7" />
-      <stop offset="100%" stop-color="#BB9AF7" />
-    </linearGradient>
   </defs>
-
-  <style>
-    .mono {
-      font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;
-      font-size: 14px;
-    }
-    .title-bar {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      font-size: 13px;
-      font-weight: 600;
-      fill: #94a3b8;
-    }
-    .prompt-user { fill: #36BCF7; font-weight: 700; }
-    .prompt-path { fill: #BB9AF7; font-weight: 700; }
-    .cmd { fill: #f8fafc; font-weight: 600; }
-    .key { fill: #7AA2F7; font-weight: 600; }
-    .val { fill: #e2e8f0; }
-    .str { fill: #9ECE6A; }
-    .comment { fill: #64748b; font-style: italic; }
-
-    @keyframes blink {
-      0%, 49% { opacity: 1; }
-      50%, 100% { opacity: 0; }
-    }
-    @keyframes fadeIn1 {
-      0%, 5% { opacity: 0; transform: translateY(4px); }
-      12%, 100% { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes fadeIn2 {
-      0%, 18% { opacity: 0; transform: translateY(4px); }
-      26%, 100% { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes fadeIn3 {
-      0%, 34% { opacity: 0; transform: translateY(4px); }
-      42%, 100% { opacity: 1; transform: translateY(0); }
-    }
-    @keyframes fadeIn4 {
-      0%, 50% { opacity: 0; transform: translateY(4px); }
-      58%, 100% { opacity: 1; transform: translateY(0); }
-    }
-    .line-1 { animation: fadeIn1 10s ease-out infinite; }
-    .line-2 { animation: fadeIn2 10s ease-out infinite; }
-    .line-3 { animation: fadeIn3 10s ease-out infinite; }
-    .line-4 { animation: fadeIn4 10s ease-out infinite; }
-    .cursor { animation: blink 1s step-end infinite; }
-  </style>
 
   <!-- Terminal Window Frame -->
   <rect width="880" height="390" rx="14" fill="url(#termBg)" stroke="#30363d" stroke-width="1.5" />
 
-  <!-- Top Bar -->
+  <!-- Top Window Bar -->
   <path d="M 0 14 Q 0 0 14 0 L 866 0 Q 880 0 880 14 L 880 42 L 0 42 Z" fill="url(#headerBg)" />
   <line x1="0" y1="42" x2="880" y2="42" stroke="#30363d" stroke-width="1" />
 
-  <!-- Window Controls -->
+  <!-- macOS Traffic Light Controls -->
   <circle cx="24" cy="21" r="6.5" fill="#ff5f56" />
   <circle cx="46" cy="21" r="6.5" fill="#ffbd2e" />
   <circle cx="68" cy="21" r="6.5" fill="#27c93f" />
 
-  <text x="440" y="26" text-anchor="middle" class="title-bar">faizan@cloud-node: ~/profile/telemetry.sh — zsh</text>
+  <text x="440" y="26" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#94a3b8">
+    faizan@cloud-node: ~/profile/telemetry.sh — zsh
+  </text>
 
-  <!-- Terminal Content -->
-  <g transform="translate(28, 72)" class="mono">
-    <!-- Command 1 -->
-    <g class="line-1">
-      <text x="0" y="0">
-        <tspan class="prompt-user">faizan@aws-cloud</tspan><tspan fill="#64748b">:</tspan><tspan class="prompt-path">~</tspan><tspan fill="#f8fafc">$ cat developer_profile.yml</tspan>
-      </text>
+  <!-- Block 1: Command & Identity (Absolute Y coordinates, zero CSS transform conflict) -->
+  <g font-family="'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace" font-size="14">
+    <text x="28" y="74">
+      <tspan fill="#36BCF7" font-weight="700">faizan@aws-cloud</tspan><tspan fill="#64748b">:</tspan><tspan fill="#BB9AF7" font-weight="700">~</tspan><tspan fill="#f8fafc" font-weight="600">$ cat developer_profile.yml</tspan>
+    </text>
 
-      <text x="0" y="28">
-        <tspan class="key">developer</tspan><tspan fill="#94a3b8">:</tspan> <tspan class="str">"Mohammad Faizan Qureshi"</tspan>
-      </text>
-      <text x="0" y="52">
-        <tspan class="key">role</tspan><tspan fill="#94a3b8">:</tspan>      <tspan class="str">"Full-Stack Developer &amp; Cloud/DevOps Engineer"</tspan>
-      </text>
-      <text x="0" y="76">
-        <tspan class="key">location</tspan><tspan fill="#94a3b8">:</tspan>  <tspan class="str">"Nashik, Maharashtra, India"</tspan>
-      </text>
-    </g>
+    <text x="28" y="102">
+      <tspan fill="#7AA2F7" font-weight="600">developer</tspan><tspan fill="#94a3b8">:</tspan> <tspan fill="#9ECE6A">"Mohammad Faizan Qureshi"</tspan>
+    </text>
+    <text x="28" y="126">
+      <tspan fill="#7AA2F7" font-weight="600">role</tspan><tspan fill="#94a3b8">:</tspan>      <tspan fill="#9ECE6A">"Full-Stack Developer &amp; Cloud/DevOps Engineer"</tspan>
+    </text>
+    <text x="28" y="150">
+      <tspan fill="#7AA2F7" font-weight="600">location</tspan><tspan fill="#94a3b8">:</tspan>  <tspan fill="#9ECE6A">"Nashik, Maharashtra, India"</tspan>
+    </text>
 
-    <!-- Command 2 -->
-    <g class="line-2" transform="translate(0, 108)">
-      <text x="0" y="0">
-        <tspan class="key">architecture_stack</tspan><tspan fill="#94a3b8">:</tspan>
-      </text>
-      <text x="18" y="24">
-        <tspan fill="#36BCF7">▸</tspan> <tspan class="key">backend_apis</tspan><tspan fill="#94a3b8">:</tspan>   <tspan class="val">[Python, Django, FastAPI, RESTful Architecture]</tspan>
-      </text>
-      <text x="18" y="48">
-        <tspan fill="#36BCF7">▸</tspan> <tspan class="key">frontend_ui</tspan><tspan fill="#94a3b8">:</tspan>    <tspan class="val">[React.js, JavaScript ES6+, Responsive HTML5/CSS3]</tspan>
-      </text>
-      <text x="18" y="72">
-        <tspan fill="#36BCF7">▸</tspan> <tspan class="key">cloud_devops</tspan><tspan fill="#94a3b8">:</tspan>   <tspan class="val">[AWS (SAA), Docker, Ansible, Linux, Nginx, Vagrant]</tspan>
-      </text>
-    </g>
+    <!-- Block 2: Architecture Stack -->
+    <text x="28" y="184">
+      <tspan fill="#7AA2F7" font-weight="600">architecture_stack</tspan><tspan fill="#94a3b8">:</tspan>
+    </text>
+    <text x="46" y="208">
+      <tspan fill="#36BCF7">▸</tspan> <tspan fill="#7AA2F7" font-weight="600">backend_apis</tspan><tspan fill="#94a3b8">:</tspan>   <tspan fill="#e2e8f0">[Python, Django, FastAPI, RESTful Architecture]</tspan>
+    </text>
+    <text x="46" y="232">
+      <tspan fill="#36BCF7">▸</tspan> <tspan fill="#7AA2F7" font-weight="600">frontend_ui</tspan><tspan fill="#94a3b8">:</tspan>    <tspan fill="#e2e8f0">[React.js, JavaScript ES6+, Responsive HTML5/CSS3]</tspan>
+    </text>
+    <text x="46" y="256">
+      <tspan fill="#36BCF7">▸</tspan> <tspan fill="#7AA2F7" font-weight="600">cloud_devops</tspan><tspan fill="#94a3b8">:</tspan>   <tspan fill="#e2e8f0">[AWS (SAA), Docker, Ansible, Linux, Nginx, Vagrant]</tspan>
+    </text>
 
-    <!-- Command 3: Telemetry Bars -->
-    <g class="line-3" transform="translate(0, 212)">
-      <text x="0" y="0">
-        <tspan class="prompt-user">faizan@aws-cloud</tspan><tspan fill="#64748b">:</tspan><tspan class="prompt-path">~</tspan><tspan fill="#f8fafc">$ ./check_clusters.sh --status</tspan>
-      </text>
+    <!-- Block 3: Cluster Telemetry Status Cards -->
+    <text x="28" y="290">
+      <tspan fill="#36BCF7" font-weight="700">faizan@aws-cloud</tspan><tspan fill="#64748b">:</tspan><tspan fill="#BB9AF7" font-weight="700">~</tspan><tspan fill="#f8fafc" font-weight="600">$ ./check_clusters.sh --status</tspan>
+    </text>
 
-      <!-- Status Cards inside Terminal -->
-      <g transform="translate(0, 16)">
-        <rect x="0" y="0" width="260" height="44" rx="8" fill="#161b22" stroke="#238636" stroke-width="1" />
-        <circle cx="18" cy="22" r="5" fill="#3fb950">
-          <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite" />
-        </circle>
-        <text x="32" y="19" font-size="11" fill="#8b949e">FULL-STACK APPS</text>
-        <text x="32" y="35" font-size="12" font-weight="700" fill="#e6edf3">Django + React • READY</text>
+    <!-- Card 1 -->
+    <rect x="28" y="304" width="260" height="44" rx="8" fill="#161b22" stroke="#238636" stroke-width="1.2" />
+    <circle cx="46" cy="326" r="5" fill="#3fb950">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="60" y="322" font-size="11" fill="#8b949e">FULL-STACK APPS</text>
+    <text x="60" y="338" font-size="12" font-weight="700" fill="#e6edf3">Django + React • READY</text>
 
-        <rect x="280" y="0" width="260" height="44" rx="8" fill="#161b22" stroke="#1f6feb" stroke-width="1" />
-        <circle cx="298" cy="22" r="5" fill="#36BCF7">
-          <animate attributeName="opacity" values="1;0.3;1" dur="2.2s" repeatCount="indefinite" />
-        </circle>
-        <text x="312" y="19" font-size="11" fill="#8b949e">CLOUD INFRASTRUCTURE</text>
-        <text x="312" y="35" font-size="12" font-weight="700" fill="#e6edf3">AWS Certified • ACTIVE</text>
+    <!-- Card 2 -->
+    <rect x="308" y="304" width="260" height="44" rx="8" fill="#161b22" stroke="#1f6feb" stroke-width="1.2" />
+    <circle cx="326" cy="326" r="5" fill="#36BCF7">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.2s" repeatCount="indefinite" />
+    </circle>
+    <text x="340" y="322" font-size="11" fill="#8b949e">CLOUD INFRASTRUCTURE</text>
+    <text x="340" y="338" font-size="12" font-weight="700" fill="#e6edf3">AWS Certified • ACTIVE</text>
 
-        <rect x="560" y="0" width="264" height="44" rx="8" fill="#161b22" stroke="#8957e5" stroke-width="1" />
-        <circle cx="578" cy="22" r="5" fill="#BB9AF7">
-          <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
-        </circle>
-        <text x="592" y="19" font-size="11" fill="#8b949e">AUTOMATION PIPELINE</text>
-        <text x="592" y="35" font-size="12" font-weight="700" fill="#e6edf3">Docker + Ansible • SYNCED</text>
-      </g>
-    </g>
+    <!-- Card 3 -->
+    <rect x="588" y="304" width="264" height="44" rx="8" fill="#161b22" stroke="#8957e5" stroke-width="1.2" />
+    <circle cx="606" cy="326" r="5" fill="#BB9AF7">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="620" y="322" font-size="11" fill="#8b949e">AUTOMATION PIPELINE</text>
+    <text x="620" y="338" font-size="12" font-weight="700" fill="#e6edf3">Docker + Ansible • SYNCED</text>
 
-    <!-- Active Prompt with Blinking Cursor -->
-    <g class="line-4" transform="translate(0, 294)">
-      <text x="0" y="0">
-        <tspan class="prompt-user">faizan@aws-cloud</tspan><tspan fill="#64748b">:</tspan><tspan class="prompt-path">~</tspan><tspan fill="#f8fafc">$ deploy --production --zero-downtime </tspan>
-      </text>
-      <rect x="488" y="-13" width="9" height="17" fill="#36BCF7" class="cursor" />
-    </g>
+    <!-- Block 4: Active Prompt with Blinking Cursor -->
+    <text x="28" y="372">
+      <tspan fill="#36BCF7" font-weight="700">faizan@aws-cloud</tspan><tspan fill="#64748b">:</tspan><tspan fill="#BB9AF7" font-weight="700">~</tspan><tspan fill="#f8fafc" font-weight="600">$ deploy --production --zero-downtime</tspan>
+    </text>
+    <rect x="492" y="358" width="9" height="17" fill="#36BCF7">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+    </rect>
   </g>
 </svg>
