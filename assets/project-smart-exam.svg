@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 270" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="borderGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#36BCF7">
+        <animate attributeName="stop-color" values="#36BCF7;#BB9AF7;#36BCF7" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#BB9AF7">
+        <animate attributeName="stop-color" values="#BB9AF7;#36BCF7;#BB9AF7" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      fill: #f8fafc;
+    }
+    .tag-featured {
+      font-family: 'Fira Code', Consolas, monospace;
+      font-size: 10.5px;
+      font-weight: 700;
+      fill: #36BCF7;
+    }
+    .desc {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 13px;
+      fill: #94a3b8;
+    }
+    .bullet {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 12.5px;
+      fill: #cbd5e1;
+    }
+    .tech-pill {
+      font-family: 'Fira Code', Consolas, monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #36BCF7;
+    }
+  </style>
+
+  <rect x="2" y="2" width="536" height="266" rx="14" fill="url(#cardBg1)" stroke="url(#borderGrad1)" stroke-width="1.8" />
+
+  <!-- Top Row -->
+  <text x="26" y="42" class="title">🎓 Smart Exam Platform</text>
+  <rect x="392" y="22" width="122" height="26" rx="13" fill="#0f172a" stroke="#36BCF7" stroke-width="1" stroke-opacity="0.5" />
+  <circle cx="408" cy="35" r="4" fill="#36BCF7">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="420" y="39" class="tag-featured">CLOUD + WEB</text>
+
+  <!-- Description -->
+  <text x="26" y="72" class="desc">Scalable online examination platform powered by microservices</text>
+  <text x="26" y="90" class="desc">and automated virtualized infrastructure provisioning.</text>
+
+  <!-- Highlights -->
+  <text x="26" y="122" class="bullet"><tspan fill="#36BCF7">▸</tspan> Full-stack examination workflow with React.js &amp; Django</text>
+  <text x="26" y="146" class="bullet"><tspan fill="#7AA2F7">▸</tspan> High-performance FastAPI microservices &amp; REST APIs</text>
+  <text x="26" y="170" class="bullet"><tspan fill="#BB9AF7">▸</tspan> Automated SSH &amp; VM provisioning via Paramiko &amp; Vagrant</text>
+
+  <line x1="26" y1="194" x2="514" y2="194" stroke="#21262d" stroke-width="1" />
+
+  <!-- Tech Stack Pills -->
+  <g transform="translate(26, 212)">
+    <rect x="0" y="0" width="74" height="28" rx="6" fill="#161b22" stroke="#30363d" />
+    <text x="37" y="18" text-anchor="middle" class="tech-pill">React.js</text>
+
+    <rect x="82" y="0" width="66" height="28" rx="6" fill="#161b22" stroke="#30363d" />
+    <text x="115" y="18" text-anchor="middle" class="tech-pill">Django</text>
+
+    <rect x="156" y="0" width="70" height="28" rx="6" fill="#161b22" stroke="#30363d" />
+    <text x="191" y="18" text-anchor="middle" class="tech-pill">FastAPI</text>
+
+    <rect x="234" y="0" width="66" height="28" rx="6" fill="#161b22" stroke="#30363d" />
+    <text x="267" y="18" text-anchor="middle" class="tech-pill">Python</text>
+
+    <rect x="308" y="0" width="80" height="28" rx="6" fill="#161b22" stroke="#30363d" />
+    <text x="348" y="18" text-anchor="middle" class="tech-pill">Paramiko</text>
+
+    <rect x="396" y="0" width="74" height="28" rx="6" fill="#161b22" stroke="#30363d" />
+    <text x="433" y="18" text-anchor="middle" class="tech-pill">Vagrant</text>
+  </g>
+</svg>

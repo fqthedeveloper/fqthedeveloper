@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 220" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#36BCF7" />
+      <stop offset="35%" stop-color="#7AA2F7" />
+      <stop offset="70%" stop-color="#BB9AF7" />
+      <stop offset="100%" stop-color="#9ECE6A" />
+    </linearGradient>
+
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .step-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-weight: 800;
+      font-size: 13px;
+      fill: #f8fafc;
+      letter-spacing: 1px;
+    }
+    .step-sub {
+      font-family: 'Fira Code', Consolas, monospace;
+      font-size: 10.5px;
+      fill: #94a3b8;
+    }
+    .header-label {
+      font-family: 'Fira Code', Consolas, monospace;
+      font-size: 12px;
+      font-weight: 700;
+      fill: #36BCF7;
+      letter-spacing: 2px;
+    }
+    @keyframes flowDash {
+      to { stroke-dashoffset: -120; }
+    }
+    @keyframes nodePulse {
+      0%, 100% { stroke-opacity: 0.45; }
+      50% { stroke-opacity: 1; }
+    }
+    .flow-line {
+      stroke-dasharray: 10 8;
+      animation: flowDash 3s linear infinite;
+    }
+    .node-box {
+      animation: nodePulse 3.5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="1100" height="220" rx="16" fill="url(#pipeBg)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Top Header -->
+  <text x="550" y="34" text-anchor="middle" class="header-label">⚡ CONTINUOUS ENGINEERING &amp; CLOUD DELIVERY LIFECYCLE ⚡</text>
+
+  <!-- Connecting Pipeline Track -->
+  <line x1="95" y1="115" x2="1005" y2="115" stroke="#1e293b" stroke-width="4" />
+  <line x1="95" y1="115" x2="1005" y2="115" stroke="url(#lineGrad)" stroke-width="3" class="flow-line" />
+
+  <!-- Traveling Energy Packets -->
+  <circle r="5" cy="115" fill="#36BCF7" filter="url(#glow)">
+    <animate attributeName="cx" values="95;1005" dur="5s" repeatCount="indefinite" />
+  </circle>
+  <circle r="5" cy="115" fill="#BB9AF7" filter="url(#glow)">
+    <animate attributeName="cx" values="95;1005" dur="5s" begin="2.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Node 1: THINK -->
+  <g transform="translate(30, 65)">
+    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#36BCF7" stroke-width="1.5" class="node-box" />
+    <text x="65" y="34" text-anchor="middle" font-size="22">💡</text>
+    <text x="65" y="60" text-anchor="middle" class="step-title">1. THINK</text>
+    <text x="65" y="80" text-anchor="middle" class="step-sub">Problem Analysis</text>
+    <text x="65" y="94" text-anchor="middle" class="step-sub">&amp; Requirements</text>
+  </g>
+
+  <!-- Node 2: DESIGN -->
+  <g transform="translate(182, 65)">
+    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#48B0F7" stroke-width="1.5" class="node-box" />
+    <text x="65" y="34" text-anchor="middle" font-size="22">🏗️</text>
+    <text x="65" y="60" text-anchor="middle" class="step-title">2. DESIGN</text>
+    <text x="65" y="80" text-anchor="middle" class="step-sub">Scalable System</text>
+    <text x="65" y="94" text-anchor="middle" class="step-sub">Architecture</text>
+  </g>
+
+  <!-- Node 3: DEVELOP -->
+  <g transform="translate(334, 65)">
+    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#7AA2F7" stroke-width="1.5" class="node-box" />
+    <text x="65" y="34" text-anchor="middle" font-size="22">💻</text>
+    <text x="65" y="60" text-anchor="middle" class="step-title">3. DEVELOP</text>
+    <text x="65" y="80" text-anchor="middle" class="step-sub">Clean Full-Stack</text>
+    <text x="65" y="94" text-anchor="middle" class="step-sub">Django &amp; React</text>
+  </g>
+
+  <!-- Node 4: AUTOMATE -->
+  <g transform="translate(485, 65)">
+    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#9D7CD8" stroke-width="1.5" class="node-box" />
+    <text x="65" y="34" text-anchor="middle" font-size="22">⚙️</text>
+    <text x="65" y="60" text-anchor="middle" class="step-title">4. AUTOMATE</text>
+    <text x="65" y="80" text-anchor="middle" class="step-sub">Docker, Ansible</text>
+    <text x="65" y="94" text-anchor="middle" class="step-sub">&amp; CI/CD Scripts</text>
+  </g>
+
+  <!-- Node 5: DEPLOY -->
+  <g transform="translate(637, 65)">
+    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#BB9AF7" stroke-width="1.5" class="node-box" />
+    <text x="65" y="34" text-anchor="middle" font-size="22">☁️</text>
+    <text x="65" y="60" text-anchor="middle" class="step-title">5. DEPLOY</text>
+    <text x="65" y="80" text-anchor="middle" class="step-sub">Resilient AWS</text>
+    <text x="65" y="94" text-anchor="middle" class="step-sub">Cloud Infra</text>
+  </g>
+
+  <!-- Node 6: MONITOR -->
+  <g transform="translate(789, 65)">
+    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#2AC3DE" stroke-width="1.5" class="node-box" />
+    <text x="65" y="34" text-anchor="middle" font-size="22">📊</text>
+    <text x="65" y="60" text-anchor="middle" class="step-title">6. MONITOR</text>
+    <text x="65" y="80" text-anchor="middle" class="step-sub">Observability</text>
+    <text x="65" y="94" text-anchor="middle" class="step-sub">&amp; Security</text>
+  </g>
+
+  <!-- Node 7: ITERATE -->
+  <g transform="translate(940, 65)">
+    <rect width="130" height="105" rx="12" fill="#0f172a" stroke="#9ECE6A" stroke-width="1.5" class="node-box" />
+    <text x="65" y="34" text-anchor="middle" font-size="22">🔄</text>
+    <text x="65" y="60" text-anchor="middle" class="step-title">7. ITERATE</text>
+    <text x="65" y="80" text-anchor="middle" class="step-sub">Scale &amp; Optimize</text>
+    <text x="65" y="94" text-anchor="middle" class="step-sub">Continuously</text>
+  </g>
+
+  <!-- Bottom Caption -->
+  <text x="550" y="200" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">
+    End-to-End Ownership: From API Design &amp; Frontend UX to Automated Provisioning &amp; Cloud High Availability
+  </text>
+</svg>
