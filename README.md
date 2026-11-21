@@ -213,6 +213,10 @@ I work across the **complete engineering lifecycle** — from crafting high-perf
       <a href="https://cloud.layer5.io/user/a98f604f-3859-4709-b367-22932a276a30?tab=badges&badge=first-design">
         <img src="https://img.shields.io/badge/Layer5%20Cloud-First%20Design%20Achievement-00B39F?style=for-the-badge&logo=cncf&logoColor=white" alt="Layer5 First Design Badge" />
       </a>
+
+      <a href="https://cloud.meshery.io/user/a98f604f-3859-4709-b367-22932a276a30?tab=badges&badge=certified-meshery-contributor">
+        <img src="https://badges.layer5.io/assets/badges/certified-meshery-contributor/certified-meshery-contributor.png" alt="Layer5 First Design Badge" />
+      </a>
       <br/><br/>
     </td>
   </tr>
