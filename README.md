@@ -201,7 +201,11 @@ I work across the **complete engineering lifecycle** — from crafting high-perf
         <img src="https://img.shields.io/badge/AWS%20Knowledge-Compute-FF9900?style=for-the-badge&amp;logo=amazonaws&amp;logoColor=white" alt="AWS Knowledge Compute" />
       </a>
     </td>
-    <td align="center" valign="middle">
+    
+  </tr>
+</table>
+
+  <td align="center" valign="middle">
       <a href="https://www.linkedin.com/in/faizan-qureshi-developer/">
         <img src="https://img.shields.io/badge/Plesk-Obsidian%20Associate-00A8E0?style=for-the-badge&amp;logo=plesk&amp;logoColor=white" alt="Plesk Obsidian Associate" />
       </a>
@@ -218,10 +222,7 @@ I work across the **complete engineering lifecycle** — from crafting high-perf
         <img width="140px" height="202px" src="https://badges.layer5.io/assets/badges/certified-meshery-contributor/certified-meshery-contributor.png" alt="Certified Meshery Contributor" />
       </a>
       <br/>
-      <sup><a href="https://badges.layer5.io">Get your own badge</a></sup>
-    </td>
-  </tr>
-</table>
+  </td>
 
 <br/>
 
