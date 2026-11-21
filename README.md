@@ -182,65 +182,58 @@ I work across the **complete engineering lifecycle** — from crafting high-perf
 
 <div align="center">
 
-  <table width="100%">
-    <tr>
-      <th width="50%" align="center">☁️ Amazon Web Services (AWS)</th>
-      <th width="50%" align="center">🛠️ Server Infrastructure &amp; Open Source</th>
-    </tr>
-    <tr>
-      <td align="center" valign="middle">
+<table align="center" width="100%">
+  <tr>
+    <th width="50%" align="center">☁️ Amazon Web Services (AWS)</th>
+    <th width="50%" align="center">🛠️ Server Infrastructure &amp; Open Source</th>
+  </tr>
+  <tr>
+    <td align="center" valign="middle">
+      <a href="https://www.credly.com/users/thequreshi/badges/credly">
+        <img src="https://img.shields.io/badge/AWS%20Certified-Solutions%20Architect%20Associate-232F3E?style=for-the-badge&amp;logo=amazonaws&amp;logoColor=FF9900" alt="AWS Certified Solutions Architect Associate" />
+      </a>
+      <br/><br/>
+      <a href="https://www.credly.com/users/thequreshi/badges/credly">
+        <img src="https://img.shields.io/badge/AWS%20Knowledge-Architecting-FF9900?style=for-the-badge&amp;logo=amazonaws&amp;logoColor=white" alt="AWS Knowledge Architecting" />
+      </a>
+      <br/><br/>
+      <a href="https://www.credly.com/users/thequreshi/badges/credly">
+        <img src="https://img.shields.io/badge/AWS%20Knowledge-Compute-FF9900?style=for-the-badge&amp;logo=amazonaws&amp;logoColor=white" alt="AWS Knowledge Compute" />
+      </a>
+    </td>
+    <td align="center" valign="middle">
+      <a href="https://www.linkedin.com/in/faizan-qureshi-developer/">
+        <img src="https://img.shields.io/badge/Plesk-Obsidian%20Associate-00A8E0?style=for-the-badge&amp;logo=plesk&amp;logoColor=white" alt="Plesk Obsidian Associate" />
+      </a>
+      &nbsp;
+      <a href="https://www.linkedin.com/in/faizan-qureshi-developer/">
+        <img src="https://img.shields.io/badge/cPanel-Professional%20Certified-FF6C2C?style=for-the-badge&amp;logo=cpanel&amp;logoColor=white" alt="cPanel Professional Certified" />
+      </a>
+      <br/><br/>
+      <a href="https://cloud.layer5.io/user/a98f604f-3859-4709-b367-22932a276a30?tab=badges&amp;badge=first-design" alt="Layer5 First Design Achievement">
+        <img width="140px" height="202px" src="https://badges.layer5.io/assets/badges/first-design/first-design.png" alt="Layer5 First Design Achievement" />
+      </a>
+      &nbsp;&nbsp;
+      <a href="https://cloud.layer5.io/user/a98f604f-3859-4709-b367-22932a276a30?tab=badges&amp;badge=certified-meshery-contributor" alt="Certified Meshery Contributor">
+        <img width="140px" height="202px" src="https://badges.layer5.io/assets/badges/certified-meshery-contributor/certified-meshery-contributor.png" alt="Certified Meshery Contributor" />
+      </a>
+      <br/>
+      <sup><a href="https://badges.layer5.io">Get your own badge</a></sup>
+    </td>
+  </tr>
+</table>
 
-        <a href="https://www.credly.com/users/thequreshi/badges/credly">
-          <img src="https://img.shields.io/badge/AWS%20Certified-Solutions%20Architect%20Associate-232F3E?style=for-the-badge&amp;logo=amazonaws&amp;logoColor=FF9900" alt="AWS Certified Solutions Architect Associate" />
-        </a>
-        <br/><br/>
+<br/>
 
-        <a href="https://www.credly.com/users/thequreshi/badges/credly">
-          <img src="https://img.shields.io/badge/AWS%20Knowledge-Architecting-FF9900?style=for-the-badge&amp;logo=amazonaws&amp;logoColor=white" alt="AWS Knowledge Architecting" />
-        </a>
-
-        <a href="https://www.credly.com/users/thequreshi/badges/credly">
-          <img src="https://img.shields.io/badge/AWS%20Knowledge-Compute-FF9900?style=for-the-badge&amp;logo=amazonaws&amp;logoColor=white" alt="AWS Knowledge Compute" />
-        </a>
-
-      </td>
-
-      <td align="center" valign="middle">
-
-        <a href="https://www.linkedin.com/in/faizan-qureshi-developer/">
-          <img src="https://img.shields.io/badge/Plesk-Obsidian%20Associate-00A8E0?style=for-the-badge&amp;logo=plesk&amp;logoColor=white" alt="Plesk Obsidian Associate" />
-        </a>
-
-        <a href="https://www.linkedin.com/in/faizan-qureshi-developer/">
-          <img src="https://img.shields.io/badge/cPanel-Professional%20Certified-FF6C2C?style=for-the-badge&amp;logo=cpanel&amp;logoColor=white" alt="cPanel Professional Certified" />
-        </a>
-        <br/><br/>
-
-        <a href="https://cloud.layer5.io/user/a98f604f-3859-4709-b367-22932a276a30?tab=badges&amp;badge=first-design">
-          <img src="https://badges.layer5.io/assets/badges/first-design/first-design.png" width="115" alt="Layer5 First Design Achievement" />
-        </a>
-
-        <a href="https://cloud.meshery.io/user/a98f604f-3859-4709-b367-22932a276a30?tab=badges&amp;badge=certified-meshery-contributor">
-          <img src="https://badges.layer5.io/assets/badges/certified-meshery-contributor/certified-meshery-contributor.png" width="115" alt="Certified Meshery Contributor" />
-        </a>
-
-      </td>
-    </tr>
-  </table>
-
-  <br/>
-
-  <p>
-    <a href="https://www.credly.com/users/thequreshi/badges/credly">
-      <img src="https://img.shields.io/badge/Verify%20All%20Badges%20on%20Credly-FF6B00?style=for-the-badge&amp;logo=credly&amp;logoColor=white" alt="Verify all badges on Credly" />
-    </a>
-
-    &nbsp;
-
-    <a href="https://www.linkedin.com/in/faizan-qureshi-developer/">
-      <img src="https://img.shields.io/badge/View%20Credentials%20on%20LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="View credentials on LinkedIn" />
-    </a>
-  </p>
+<p align="center">
+  <a href="https://www.credly.com/users/thequreshi/badges/credly">
+    <img src="https://img.shields.io/badge/Verify%20All%20Badges%20on%20Credly-FF6B00?style=for-the-badge&amp;logo=credly&amp;logoColor=white" alt="Verify all badges on Credly" />
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/faizan-qureshi-developer/">
+    <img src="https://img.shields.io/badge/View%20Credentials%20on%20LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="View credentials on LinkedIn" />
+  </a>
+</p>
 
 </div>
 
